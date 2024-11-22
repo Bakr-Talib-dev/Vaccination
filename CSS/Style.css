@@ -20,11 +20,14 @@ body{
   background-size: cover;
 }
 
+
 /*  ========== Typograpghy ===========*/
 * {
   padding: 0rem;
   margin: 0rem;
   box-sizing: border-box;
+
+
 }
 html {
   /* 62.5% of 16px is 10px */
@@ -779,7 +782,10 @@ color: var(--color-fff-80);
 .block{
   /* background:var(--color-primary) ; */
 }
-/* ========= sec3-cards-readMore  ============ */
+section{
+  opacity: 0; /* إخفاء العناصر مبدئيًا */
+  transition: opacity 0.3s ease-in-out;
+}
 
 /* ========= sec3-cards-readMore  ============ */
 .sec3-cards-readMore{
